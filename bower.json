@@ -1,0 +1,29 @@
+{
+  "name": "SPAWithBower",
+  "authors": [
+    "amit4alljava <amit4alljava@gmail.com>"
+  ],
+  "description": "this is a  spa demo",
+  "main": "index.js",
+  "keywords": [
+    "spa",
+    "demo"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.6.8"
+  },
+  "resolutions": {
+    "angular": "1.6.9"
+  }
+}
