@@ -11,42 +11,43 @@ h3,
 h4,
 h5,
 h6,
-p {
+p{
     margin: 0px;
 }
 
-.wsmobileheader .company-logo img {
+
+.wsmobileheader .company-logo img{
     padding-left: 50px;
 }
-
 .company-name a {
     text-decoration: none;
     color: white;
 }
 
-.comp-name {
-    padding: 18px 0px 0px 15px;
-    margin: 0;
-    float: left;
-    width: 13%;
+.comp-name{
+        padding: 18px 0px 0px 15px;
+        margin: 0;
+        float: left;
+        width: 13%;
 }
 
-.comp-name a {
+.comp-name a{
     font-size: 18px;
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-.smallogo p {
+.smallogo p{
     font-size: 18px;
     font-weight: bold;
     color: white;
     margin: 10px 20px 0px 0px;
+
 }
 
-@media(max-width:991px) {
-    .company-header {
+@media(max-width:991px){
+    .company-header{
         display: none;
     }
 }
@@ -58,167 +59,173 @@ p {
     color: #0077e2;
 }
 
-@media(max-width:991px) {
-    .body-slider .carousel {
+@media(max-width:991px){
+    .carousel{
         margin-top: 53px;
     }
-    .body-slider .carousel .carousel-inner .item img {
+    .carousel .carousel-inner .item img{
         min-height: 200px;
         width: 100%;
     }
 }
 
-.body-slider .carousel .carousel-inner .item img {
+.carousel .carousel-inner .item img{
     max-height: 400px;
     min-height: 280px;
     width: 100%;
 }
 
-.section-shadow {
+
+
+.section-shadow{
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
 }
 
-.section-spacing {
+.section-spacing{
     margin-bottom: 30px;
 }
 
-.wrapper .product-heading h2 {
+
+.wrapper .product-heading h2{
     font-weight: 600;
     padding: 10px 0px;
     display: inline-block;
 }
 
-.wrapper .product-heading a {
+
+.wrapper .product-heading a{
     background-color: #0077e2;
     color: white;
     margin: 10px 10px 0 0;
+    
 }
 
-.wrapper .product-wrapper a {
+.wrapper .product-wrapper a{
     text-decoration: none;
     color: black;
 }
 
-.wrapper .product-wrapper .product-details {
+.wrapper .product-wrapper .product-details{
     width: 95%;
     padding: 20px;
     margin: 0 auto;
 }
 
-.wrapper .product-wrapper .product-details .product-desc {
+.wrapper .product-wrapper .product-details .product-desc{
     margin-top: 20px;
 }
 
-.wrapper .product-wrapper .product-details .product-desc h3 {
+.wrapper .product-wrapper .product-details .product-desc h3{
     font-weight: 500;
 }
 
-.wrapper .product-wrapper .product-details .product-desc p {
+.wrapper .product-wrapper .product-details .product-desc p{
     font-size: 16px;
     color: #31a8e6;
 }
 
 #myFooter {
     margin-top: 20px;
-    background-color: white;
-    color: white;
+	background-color: white;
+	color:white;
 }
 
-#myFooter .footer-copyright {
-    background-color: white;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
+#myFooter .footer-copyright{
+	background-color: white;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
 }
 
-#myFooter .footer-copyright p {
-    margin: 10px;
-    color: grey;
+#myFooter .footer-copyright p{
+	margin:10px;
+	color:grey;
 }
 
-#myFooter ul {
-    list-style-type: none;
+#myFooter ul{
+	list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
+
 }
 
-#myFooter h5 {
-    font-size: 18px;
-    color: gray;
+#myFooter h5{
+	font-size: 18px;
+    color:gray;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-#myFooter a {
-    color: grey;
-    text-decoration: none;
+#myFooter a{
+	color:grey;
+	text-decoration: none;
 }
 
-#myFooter a:hover,
-#myFooter a:focus {
-    text-decoration: none;
-    color: black;
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:black;
 }
 
-#myFooter .myCols {
-    text-align: center;
+#myFooter .myCols{
+	text-align: center;
 }
 
-#myFooter .social-networks {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 38px;
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
 }
 
-#myFooter .social-networks a {
+#myFooter .social-networks a{
     font-size: 32px;
     margin-right: 5px;
     margin-left: 5px;
-    color: grey;
+    color:grey;
     padding: 10px;
     transition: 0.2s;
 }
 
-#myFooter .social-networks a:hover {
-    text-decoration: none;
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
 }
 
-#myFooter .facebook:hover {
-    color: #0077e2;
+#myFooter .facebook:hover{
+	color:#0077e2;
 }
 
-#myFooter .google:hover {
-    color: #ef1a1a;
+#myFooter .google:hover{
+	color:#ef1a1a;
 }
 
-#myFooter .twitter:hover {
-    color: #00aced;
+#myFooter .twitter:hover{
+	color: #00aced;
 }
 
-#myFooter .instagram:hover {
-    color: orange;
+#myFooter .instagram:hover{
+	color: orange;
 }
 
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
 }
 
-.modal-body {
+.modal-body{
     margin-top: 10px;
 }
 
-.modal-title {
+.modal-title{
     color: white;
 }
 
 /* ==================================Login Form ================================ */
-
-.prm-color {
+.prm-color{
     background-color: #5999ee;
 }
 
@@ -228,13 +235,14 @@ p {
     border-radius: 0px;
 }
 
-.modal-body .form-control:focus {
+.modal-body .form-control:focus{
     box-shadow: none;
     border: none;
     border-bottom: 1px solid lightgrey;
+    
 }
 
-.modal-body .form-control {
+.modal-body .form-control{
     box-shadow: none;
 }
 
@@ -258,15 +266,15 @@ p {
     text-decoration: none;
 }
 
-.login-form .registerbtn {
+.login-form .registerbtn{
     width: 100%;
     background-color: white;
-    border: 1px solid #5999ee;
+    border: 1px solid  #5999ee;
     color: black;
 }
 
-.login-form .registerbtn:hover {
-    background-color: #5999ee;
+.login-form .registerbtn:hover{
+    background-color:  #5999ee;
     color: white;
 }
 
@@ -289,7 +297,6 @@ a .fa-facebook {
 /* ==================================End of Login Form ================================ */
 
 /* ================================Start of Registration Form ========================= */
-
 .register-form input {
     border: none;
     border-bottom: 1px solid lightgrey;
@@ -297,13 +304,13 @@ a .fa-facebook {
     box-shadow: none;
 }
 
-.register-form .otp {
+.register-form .otp{
     background-color: white;
     color: black;
     border-color: #5999ee;
 }
 
-.register-form .otp:hover {
+.register-form .otp:hover{
     background-color: #5999ee;
     color: white;
 }
@@ -327,7 +334,6 @@ a .fa-facebook {
 /* ==============================End of Registration Form ======================== */
 
 /* ================================Start of ForgetPassword Form ========================= */
-
 .forgetpassword-form input {
     border: none;
     border-bottom: 1px solid lightgrey;
@@ -335,13 +341,13 @@ a .fa-facebook {
     box-shadow: none;
 }
 
-.forgetpassword-form .otp {
+.forgetpassword-form .otp{
     background-color: white;
     color: black;
     border-color: #5999ee;
 }
 
-.forgetpassword-form .otp:hover {
+.forgetpassword-form .otp:hover{
     background-color: #5999ee;
     color: white;
 }
@@ -364,58 +370,53 @@ a .fa-facebook {
 
 /* ==============================End of ForgetPassword Form ======================== */
 
-/* ==============================Start Of Placeholder Animation ==================== */
 
-.modal-body .myinput {
+/* ==============================Start Of Placeholder Animation ==================== */
+.modal-body .myinput{
     position: relative;
     margin-bottom: 10px;
 }
-
-.modal-body .myplaceholder {
+ .modal-body .myplaceholder{
     position: absolute;
-    z-index: 1;
-    top: 6px;
-    left: 20px;
-    transition: 0.5s;
-    color: #0077e2;
-    font-size: 16px;
+     z-index: 1;
+     top: 6px;
+     left: 20px;
+     transition: 0.5s;
+     color: #0077e2;
+     font-size: 16px;
 }
 
-.focus .myplaceholder {
+.focus .myplaceholder{
     top: -20px;
     left: 15px;
     transition: 0.5s;
     color: #0077e2;
     font-size: 12px;
 }
-
 /* ==============================End Of Placeholder Animation ==================== */
-
+  
 /* ==============================Start of Category Html=========================== */
-
-.wrapper .category-heading h2 {
+.wrapper .category-heading h2{
     font-weight: 600;
     padding: 10px 0px;
     display: inline-block;
 }
 
-.wrapper .category-heading .sortby {
-    color: black;
+.wrapper .category-heading .sortby{
+    color:black;
     margin: 10px 10px 0 0;
     font-size: 16px;
     font-weight: bold;
 }
 
-.wrapper .category-heading .sortby p a {
+.wrapper .category-heading .sortby p a{
     color: grey;
     text-decoration: none;
     font-weight: normal;
 }
-
 /* ==============================End of Category Html=========================== */
 
 /* ==============================Start of Product Html=========================== */
-
 .body-content .filter-section {
     background-color: white;
     padding: 10px;
@@ -441,7 +442,7 @@ a .fa-facebook {
     background-color: white;
 }
 
-.body-content .filter-section .panel-group .panel:first-child {
+.body-content .filter-section .panel-group .panel:first-child{
     border-top: 1px solid lightgrey;
 }
 
@@ -462,6 +463,7 @@ a .fa-facebook {
 .body-content .filter-section .panel-group .panel-heading {
     background-color: white;
 }
+
 
 .body-content .filter-section .panel-group .panel-heading .panel-title a {
     text-decoration: none;

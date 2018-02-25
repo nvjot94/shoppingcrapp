@@ -1,7 +1,7 @@
-<div class="body-content choose-product">
+<div class="body-content">
     <div id="product-case">
         <div class="row">
-            <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+            <div class="col-md-5 col-lg-5 col-sm-12 sol-xs-12">
                 <div class="product-showcase clearfix">
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
@@ -36,13 +36,12 @@
                             </div>
                         </div>
                         <div class="col-md-10 col-lg-10 col-sm-10">
-                            <div class="zoom">
-                                <div id="img-preview">
-                                    <img src="phone/1.jpg" alt="">
-                                </div>
+                            <div id="img-preview">
+                                <img src="phone/1.jpg" alt="">
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
@@ -59,6 +58,7 @@
                     <p class="pull-left">Product Id :</p>
                     <span>MI3245</span>
                     <p>0 In Stock</p>
+
                     <p>Value % OFF </p>
                     <div class="price-details clearfix">
                         <p class="pull-left">Price :
@@ -79,7 +79,7 @@
                             dolores deleniti, tempore explicabo nemo laudantium inventore expedita a quasi voluptates provident
                             voluptas, aperiam sunt quis.</span>
                     </div>
-                    <!-- <div class="category bottom-space clearfix">
+                    <div class="category bottom-space clearfix">
                         <p class="pull-left">Category :</p>
                         <select name="" id="input" class="form-control">
                             <option value="">-- Select One --</option>
@@ -98,7 +98,7 @@
                             <option value="">-- Select One --</option>
                             <option value="">-- Select One --</option>
                         </select>
-                    </div> -->
+                    </div>
                     <div class="varients clearfix">
                         <p class="pull-left">Varients :</p>
                         <ul class="nav navbar-nav">
@@ -123,9 +123,6 @@
                         <p class="pull-left">Quantity :</p>
                         <select name="" id="input" class="form-control pull-left">
                             <option value="">-- Select One --</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
                         </select>
                     </div>
                     <button class="btn btn-primary bottom-space">Add to Cart</button>
@@ -169,163 +166,126 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3>Similar Products</h3>
-                    <div id="carousel-id" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-id" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row text-center">
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img ng-src="../images/memorycard.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/ac.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/camera.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/laptop.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/memorycard.png" alt="">
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="row text-center">
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/microwave.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/mobile.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/memorycard.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="similar-prod-desc">
-                                            <div class="similar-item-img">
-                                                <img src="../images/microwave.png" alt="">
-                                            </div>
-                                            <div class="similar-item-desc text-center">
-                                                <h4>Product Name</h4>
-                                                <p>Rs. 3000
-                                                    <span>30% Discount</span>
-                                                </p>
-                                                <p>Rating
-                                                    <span>4.5</span>
-                                                </p>
-                                                <button class="btn btn-primary">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
                                 </div>
                             </div>
                         </div>
-                        <a class="left carousel-control" data-target="#carousel-id" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a class="right carousel-control" data-target="#carousel-id" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/ac.png" alt="">
+                                </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/camera.png" alt="">
+                                </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/laptop.png" alt="">
+                                </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/microwave.png" alt="">
+                                </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/mobile.png" alt="">
+                                </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="similar-prod-desc">
+                                <div class="similar-item-img">
+                                    <img src="../images/memorycard.png" alt="">
+                                </div>
+                                <div class="similar-item-desc text-center">
+                                    <h4>Product Name</h4>
+                                    <p>Rs. 3000
+                                        <span>30% Discount</span>
+                                    </p>
+                                    <p>Rating
+                                        <span>4.5</span>
+                                    </p>
+                                    <button class="btn btn-primary">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
