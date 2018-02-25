@@ -6,7 +6,7 @@ app.config(function($routeProvider,$locationProvider,HOME,PRODUCTS,CHOOSEPRODUCT
         controller:'indexController'
     }).when(PRODUCTS,{
         templateUrl:'views/products.html',
-        controller:'indexController'
+        controller:'productController'
     }).when(CHOOSEPRODUCT,{
         templateUrl:'views/chooseproduct.html',
         controller:''
