@@ -1,10 +1,8 @@
 {
     "_id": "5a796bb68155ec0a8c09a3a4",
-    "categories": [
-        {
+    "categories": [{
             "name": "Electronics",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "Mobiles",
                     "sets": [
                         "Samsung",
@@ -56,15 +54,14 @@
                         "at&t",
                         "soundlogic",
                         "skullcandy",
-                        "acer"    
+                        "acer"
                     ]
                 }
             ]
         },
         {
             "name": "Clothing",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "men",
                     "sets": [
                         "shirt",
@@ -92,8 +89,7 @@
         },
         {
             "name": "Footwear",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "shoes",
                     "sets": [
                         "running",
@@ -133,8 +129,7 @@
         },
         {
             "name": "Furniture",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "table",
                     "sets": [
                         "party table",
@@ -174,8 +169,7 @@
         },
         {
             "name": "Books",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "novels",
                     "sets": [
                         "entertainment",
@@ -215,8 +209,7 @@
         },
         {
             "name": "Sports",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "cricket",
                     "sets": [
                         "bat",
@@ -254,15 +247,13 @@
                         "racket",
                         "net",
                         "table"
-                        
                     ]
                 }
             ]
         },
         {
             "name": "Toys",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "remote control",
                     "sets": [
                         "helicopter",
@@ -309,8 +300,7 @@
         },
         {
             "name": "Home Appliances",
-            "subcategories": [
-                {
+            "subcategories": [{
                     "name": "television",
                     "sets": [
                         "Sony",
