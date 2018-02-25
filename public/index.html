@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> SPA </title>
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -10,8 +11,11 @@
     <link rel="stylesheet" href="./stylesheets/webslidemenu.css">
     <link rel="stylesheet" href="./stylesheets/price-range.css">
     <link rel="stylesheet" href="./stylesheets/product.css">
-    <link rel="stylesheet" href="./stylesheets/owl.carousel.css">
     <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/wishlist.css">
+    <link rel="stylesheet" href="./stylesheets/cart.css">
+    <link rel="stylesheet" href="./stylesheets/checkout.css">
+    <link rel="stylesheet" href="./stylesheets/myorders.css">
     <script src="./bower_components/angular/angular.min.js"></script>
     <script src="./bower_components/angular-route/angular-route.min.js"></script>
     <script src="./app.js"></script>
@@ -23,8 +27,11 @@
     <script src="./js/controller/productcontroller.js"></script>
     <script src="./js/controller/categoriescontroller.js"></script>
     <script src="./js/controller/indexController.js"></script>
-    <script src="./js/routes/spa-routes.js"></script>
+    <!-- <script src="./js/factory/indexFactory.js"></script>
+    <script src="./js/controller/indexController.js"></script> -->
+    <script src="./spa-routes.js"></script>
 </head>
+
 <body>
     <div class="wrapper" ng-app="myapp" ng-controller="indexController">
         <div class="wsmenucontainer clearfix">
@@ -34,7 +41,7 @@
                     <span></span>
                 </a>
                 <div class="company-logo clearfix">
-                    <a class="smallogo" href="/">
+                    <a class="smallogo">
                         <img src="./images/logo.png" class="img-responsive" alt="">
                         <p class="pull-right">Company Name</p>
                     </a>
@@ -44,7 +51,11 @@
             <div class="headerfull pm_buttoncolor blue-grdt">
                 <!--Main Menu HTML Code-->
                 <div class="wsmain">
-                        <div class="smllogo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+                    <div class="smllogo">
+                        <a href="#">
+                            <img src="./images/logo.png" alt="">
+                        </a>
+                    </div>
                     <nav class="wsmenu clearfix">
                         <ul class="mobile-sub wsmenu-list">
                             <li>
@@ -55,17 +66,17 @@
                                 <div class="wsshoptabing wtsdepartmentmenu clearfix">
                                     <div class="wsshopwp clearfix">
                                         <ul class="wstabitem clearfix">
-                                            <li class="wsshoplink-active" ng-repeat="menu in productdata.categories" >
-                                                <a href="#" ng-bind="menu.name" >
+                                            <li class="wsshoplink-active" ng-repeat="menu in productdata.categories">
+                                                <a href="#" ng-bind="menu.name">
                                                     <i class="fa fa-laptop"></i>
                                                 </a>
                                                 <div class="wstitemright clearfix wstitemrightactive">
                                                     <div class="container-fluid">
                                                         <div class="row">
-                                                            <div class="col-lg-12 col-md-12 clearfix" ng-repeat="submenu in menu.subcategories ">
+                                                            <div class="col-lg-12 col-md-12 clearfix" ng-repeat="submenu in menu.subcategories">
                                                                 <div class="wstheading clearfix" ng-bind="submenu.name"></div>
                                                                 <ul class="wstliststy01 clearfix">
-                                                                    <li  ng-repeat="option in submenu.brands">
+                                                                    <li ng-repeat="option in submenu.brands">
                                                                         <a href="#" ng-bind="option"></a>
                                                                     </li>
                                                                 </ul>
@@ -84,7 +95,7 @@
                                     <span>Brand</span>
                                 </a>
                             </li>
-                           
+
                             <li class="wssearchbar clearfix">
                                 <form class="topmenusearch">
                                     <input placeholder="Search Product By Name, Category...">
@@ -150,7 +161,9 @@
 
                         </ul>
                     </nav>
-                    <div class="smllogo comp-name"><a href="#">Company Name</a></div>                    
+                    <div class="smllogo comp-name">
+                        <a href="#">Company Name</a>
+                    </div>
                 </div>
             </div>
             <!--Menu HTML Code-->
@@ -422,33 +435,19 @@
                 <p>© 2016 Copyright Text </p>
             </div>
         </footer>
-  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="./js/menujs/webslidemenu.js"></script>
-  <script src="./js/menujs/placeholder.js"></script>  
-  <script src="./js/menujs/price-range.js"></script>
-  <script src="./js/menujs/custom.js"></script>
-  <script src="./js/menujs/owl.carousel.min.js"></script>  
-  <script>
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 3
-        },
-        1000: {
-            items: 4
-        }
-    }
-});
-  </script>
-</body>
+        <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./js/menujs/webslidemenu.js"></script>
+        <script src="./js/menujs/placeholder.js"></script>
+        <script src="./js/menujs/price-range.js"></script>
+        <script src="./js/menujs/custom.js"></script>
+        <script src="./js/menujs/jquery.zoom.min.js"></script>
+        <script>
+            $(function () {
+                $('.zoom').zoom({
+                    on: 'mouseover'
+                });
+            });
+        </script>
+
 </html>

@@ -1,5 +1,5 @@
 app.factory("indexFactory",function($http,$q){
-   // console.log("loading factory");
+    console.log("loading factory");
     
     const object={
         callToserver(url){

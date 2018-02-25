@@ -1,3 +1,9 @@
 {
-    "mobiles": [{"samsung":[]},{"Xiomi":[]},{"Apple":[]}]
+    "mobiles": [{
+        "samsung": []
+    }, {
+        "Xiomi": []
+    }, {
+        "Apple": []
+    }]
 }
